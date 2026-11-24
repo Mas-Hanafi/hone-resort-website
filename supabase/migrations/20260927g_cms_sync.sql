@@ -1,0 +1,115 @@
+-- Audit 2026-09-27: admin Kamar / Galeri / Pengaturan did not reach the website (it used copies
+-- hardcoded in hone_resort.tsx, and the DB rows were older versions). This copies what the
+-- website shows today into the DB, so switching the website to read the DB changes nothing visible;
+-- from then on admin edits go live.
+alter table public.kamar add column if not exists tipe_kasur text;
+
+update public.kamar set gambar_utama = 'https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/ht7F0zP.jpeg', luas_m2 = 32, tipe_kasur = '1 King Bed / Twin Bed (Upon request)',
+  deskripsi_singkat = 'Where the horizon becomes your most faithful companion.',
+  deskripsi = 'Suara ombak adalah satu-satunya alarm yang diizinkan di sini. Cahaya pagi menyebar perlahan di atas permukaan laut — lembut, tanpa tergesa, seperti hari yang mengerti bahwa Anda butuh waktu. Sanctuary ini bukan sekadar kamar dengan sea view. Ia adalah percakapan pribadi antara Anda dan samudra selatan.'
+  where nama = 'Superior Sea View';
+update public.kamar set gambar_utama = 'https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/oxYbkEw.jpeg', luas_m2 = 32, tipe_kasur = '1 King Bed / Twin Bed (Upon request)',
+  deskripsi_singkat = 'A private world softened by green and shadow.',
+  deskripsi = 'Di balik kanopi tropis yang menaungi, dunia terasa lebih kecil — dan justru di situ, ia terasa lebih utuh. Cahaya menyaring lembut melalui dedaunan di pagi hari; angin membawa aroma tanah basah saat sore menjelang. Untuk mereka yang menemukan kedalaman bukan dalam pemandangan yang luas, melainkan dalam keheningan yang dekat.'
+  where nama = 'Superior Garden View';
+update public.kamar set gambar_utama = 'https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/ocljqF0.jpeg', luas_m2 = 42, tipe_kasur = '1 King Bed / Twin Bed (Upon request)',
+  deskripsi_singkat = 'An uninterrupted dialogue with the southern sea.',
+  deskripsi = 'Ruang yang lebih lapang bukan berarti lebih banyak furnitur — melainkan lebih banyak laut. Panorama pesisir selatan terbentang tanpa hambatan dari setiap sudut sanctuary ini, membiarkan suara ombak, kualitas cahaya, dan pergerakan air menjadi bagian dari ritme harian Anda. Ini bukan sekadar view. Ini adalah immersion.'
+  where nama = 'Deluxe Sea View';
+update public.kamar set gambar_utama = 'https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/4rS8xBv.jpeg', luas_m2 = 42, tipe_kasur = '1 King Bed / Twin Bed (Upon request)',
+  deskripsi_singkat = 'Depth, shadow, and an uncommon stillness.',
+  deskripsi = 'Ada kemewahan yang tidak perlu panorama luas untuk membuktikan diri. Di sanctuary ini, privasi terasa seperti arsitektur itu sendiri — terbangun dari hijau yang mengelilingi, bayangan yang meneduhkan, dan kesunyian yang tidak pernah terasa kosong. Ruang yang melindungi, bukan sekadar mewadahi.'
+  where nama = 'Deluxe Garden View';
+update public.kamar set gambar_utama = 'https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/SKBkcRN.jpeg', luas_m2 = 65, tipe_kasur = '1 Super King Bed',
+  deskripsi_singkat = 'The most considered space we offer. Nothing left to chance.',
+  deskripsi = 'Enam puluh lima meter persegi yang dirancang dengan obsesi terhadap detail — di mana setiap proporsi, setiap sightline, setiap material telah melalui pertimbangan yang panjang. Suite Sea View menguasai panorama pesisir terluas di resort ini — bukan sebagai pamer, melainkan sebagai pernyataan tentang apa yang Anda layak rasakan. Untuk mereka yang tahu perbedaannya.'
+  where nama = 'Suite Sea View';
+
+delete from public.galeri;
+insert into public.galeri (url, kategori, urutan, is_active) values
+  ('https://images.hone.example/ROOM/Gemini_Generated_Image_66b71466b71466b7.png', 'Rooms', 1, true),
+  ('https://images.hone.example/ROOM/IMG_0399.JPG', 'Rooms', 2, true),
+  ('https://images.hone.example/ROOM/IMG_1258%202.JPG', 'Rooms', 3, true),
+  ('https://images.hone.example/ROOM/IMG_1292.JPG', 'Rooms', 4, true),
+  ('https://images.hone.example/ROOM/IMG_1534.JPG', 'Rooms', 5, true),
+  ('https://images.hone.example/ROOM/IMG_3360.JPG', 'Rooms', 6, true),
+  ('https://images.hone.example/ROOM/IMG_3368.JPG', 'Rooms', 7, true),
+  ('https://images.hone.example/ROOM/IMG_7089.JPG', 'Rooms', 8, true),
+  ('https://images.hone.example/ROOM/IMG_7295.JPG', 'Rooms', 9, true),
+  ('https://images.hone.example/ROOM/IMG_7315.JPG', 'Rooms', 10, true),
+  ('https://images.hone.example/ROOM/IMG_7701.JPG', 'Rooms', 11, true),
+  ('https://images.hone.example/ROOM/IMG_7759.JPG', 'Rooms', 12, true),
+  ('https://images.hone.example/ROOM/villa-balcony-sea-view-sunset-01.png', 'Rooms', 13, true),
+  ('https://images.hone.example/ROOM/villa-balcony-sea-view-sunset-02.JPG', 'Rooms', 14, true),
+  ('https://images.hone.example/ROOM/villa-pool-stone-nook-day-01.jpg', 'Rooms', 15, true),
+  ('https://images.hone.example/ROOM/villa-pool-terrace-night-01.png', 'Rooms', 16, true),
+  ('https://images.hone.example/ROOM/villa-pool-umbrella-blue-hour-01.png', 'Rooms', 17, true),
+  ('https://images.hone.example/ROOM/villa-pool-umbrella-night-02.png', 'Rooms', 18, true),
+  ('https://images.hone.example/MEETING%20ROOM/Gemini_Generated_Image_12out912out912ou.png', 'Meeting Room', 19, true),
+  ('https://images.hone.example/MEETING%20ROOM/IMG_1017.JPG', 'Meeting Room', 20, true),
+  ('https://images.hone.example/MEETING%20ROOM/IMG_1063.JPG', 'Meeting Room', 21, true),
+  ('https://images.hone.example/MEETING%20ROOM/IMG_1134.JPG', 'Meeting Room', 22, true),
+  ('https://images.hone.example/MEETING%20ROOM/IMG_2602.JPG', 'Meeting Room', 23, true),
+  ('https://images.hone.example/MEETING%20ROOM/IMG_2627.JPG', 'Meeting Room', 24, true),
+  ('https://images.hone.example/MEETING%20ROOM/IMG_5051.JPG', 'Meeting Room', 25, true),
+  ('https://images.hone.example/MEETING%20ROOM/IMG_5053.JPG', 'Meeting Room', 26, true),
+  ('https://images.hone.example/MEETING%20ROOM/IMG_5057.JPG', 'Meeting Room', 27, true),
+  ('https://images.hone.example/MEETING%20ROOM/IMG_5077.JPG', 'Meeting Room', 28, true),
+  ('https://images.hone.example/MEETING%20ROOM/IMG_5097.JPG', 'Meeting Room', 29, true),
+  ('https://images.hone.example/MEETING%20ROOM/IMG_9929.JPG', 'Meeting Room', 30, true),
+  ('https://images.hone.example/MEETING%20ROOM/round%20table%20photo.jpg', 'Meeting Room', 31, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/1764398009864_jpg.JPG', 'Experiences', 32, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/IMG_0562.JPG', 'Experiences', 33, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/IMG_0920.JPG', 'Experiences', 34, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/IMG_3695_png.JPG', 'Experiences', 35, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/IMG_5148.JPG', 'Experiences', 36, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/IMG_5692.JPG', 'Experiences', 37, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/IMG_7868.JPG', 'Experiences', 38, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/IMG_7920.JPG', 'Experiences', 39, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/IMG_8142.JPG', 'Experiences', 40, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/IMG_8157.JPG', 'Experiences', 41, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/IMG_9151.JPG', 'Experiences', 42, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/IMG_9631.JPG', 'Experiences', 43, true),
+  ('https://images.hone.example/ACTIVITY%20EXPERIENCE/Screenshot%202026-06-22%20at%2021.48.28.JPG', 'Experiences', 44, true),
+  ('https://images.hone.example/AERIAL/DJI_20251116145010_0108_D.JPG', 'Aerial Photos', 45, true),
+  ('https://images.hone.example/AERIAL/DJI_20251217165640_0055_D.JPG', 'Aerial Photos', 46, true),
+  ('https://images.hone.example/AERIAL/DJI_20251217165706_0056_D.JPG', 'Aerial Photos', 47, true),
+  ('https://images.hone.example/AERIAL/DJI_20260204052607_0042_D.JPG', 'Aerial Photos', 48, true),
+  ('https://images.hone.example/AERIAL/IMG_111111111.JPG', 'Aerial Photos', 49, true),
+  ('https://images.hone.example/AERIAL/IMG_3335.JPG', 'Aerial Photos', 50, true),
+  ('https://images.hone.example/AERIAL/IMG_4208.JPG', 'Aerial Photos', 51, true),
+  ('https://images.hone.example/AERIAL/IMG_5290.JPG', 'Aerial Photos', 52, true),
+  ('https://images.hone.example/AERIAL/IMG_7456.JPG', 'Aerial Photos', 53, true),
+  ('https://images.hone.example/AERIAL/IMG_7705A.jpg', 'Aerial Photos', 54, true),
+  ('https://images.hone.example/AERIAL/IMG_7705ASAAA.jpg', 'Aerial Photos', 55, true),
+  ('https://images.hone.example/AERIAL/drone-resort-overview-fog-01.png', 'Aerial Photos', 56, true),
+  ('https://images.hone.example/AERIAL/drone-resort-overview-fog-02.JPG', 'Aerial Photos', 57, true),
+  ('https://images.hone.example/OTHERS/IMG_7203.JPG.jpeg', 'Others', 58, true),
+  ('https://images.hone.example/OTHERS/IMG_7974.JPG.jpeg', 'Others', 59, true),
+  ('https://images.hone.example/OTHERS/IMG_7975.JPG.jpeg', 'Others', 60, true),
+  ('https://images.hone.example/OTHERS/IMG_9151.JPG', 'Others', 61, true),
+  ('https://images.hone.example/OTHERS/IMG_9470.JPG', 'Others', 62, true),
+  ('https://images.hone.example/OTHERS/Untitled%20design%20-%201.JPG', 'Others', 63, true),
+  ('https://images.hone.example/OTHERS/architecture-detail-pergola-night-01.png', 'Others', 64, true),
+  ('https://images.hone.example/OTHERS/architecture-detail-stairway-night-01.png', 'Others', 65, true),
+  ('https://images.hone.example/OTHERS/bench-lamppost-night-01.png', 'Others', 66, true),
+  ('https://images.hone.example/OTHERS/corridor-doors-night-01.png', 'Others', 67, true),
+  ('https://images.hone.example/OTHERS/corridor-sconces-night-01.png', 'Others', 68, true),
+  ('https://images.hone.example/OTHERS/entrance-signage-night-01.png', 'Others', 69, true),
+  ('https://images.hone.example/OTHERS/hilltop-view-dusk-01.jpg', 'Others', 70, true),
+  ('https://images.hone.example/OTHERS/moonlit-walkway-night-01.png', 'Others', 71, true),
+  ('https://images.hone.example/OTHERS/rooftop-lounge-deck-night-01.png', 'Others', 72, true),
+  ('https://images.hone.example/OTHERS/rooftop-restaurant-day-01.jpg', 'Others', 73, true),
+  ('https://images.hone.example/OTHERS/rooftop-restaurant-day-02.jpeg', 'Others', 74, true),
+  ('https://images.hone.example/OTHERS/rooftop-restaurant-misty-morning-01.jpg', 'Others', 75, true),
+  ('https://images.hone.example/OTHERS/rooftop-restaurant-misty-morning-02.jpg', 'Others', 76, true),
+  ('https://images.hone.example/OTHERS/rooftop-terrace-moon-night-01.png', 'Others', 77, true),
+  ('https://images.hone.example/OTHERS/rooftop-terrace-view-night-01.png', 'Others', 78, true),
+  ('https://images.hone.example/OTHERS/stairway-blue-sky-day-01.JPG', 'Others', 79, true),
+  ('https://images.hone.example/OTHERS/stairway-plants-night-01.png', 'Others', 80, true),
+  ('https://images.hone.example/OTHERS/stairway-statue-night-01.png', 'Others', 81, true),
+  ('https://images.hone.example/OTHERS/walkway-spiral-stairs-night-01.png', 'Others', 82, true),
+  ('https://images.hone.example/OTHERS/walkway-villas-night-01.png', 'Others', 83, true),
+  ('https://images.hone.example/OTHERS/walkway-villas-night-02.png', 'Others', 84, true);
+
+update public.pengaturan set value = to_jsonb('Jl. Contoh No. 1, Kota Contoh, Provinsi Contoh 00000'::text) where key = 'alamat';

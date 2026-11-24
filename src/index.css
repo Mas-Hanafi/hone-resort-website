@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* WhatsApp pulse animation */
+@keyframes wa-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  60% { box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
+}
+.wa-pulse {
+  animation: wa-pulse 2.2s ease-out infinite;
+}
+
+/* Platinum card — rotating gold border beam */
+@keyframes platinum-rotate {
+  to { transform: rotate(360deg); }
+}
+.platinum-border-ring,
+.platinum-btn-ring {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.platinum-border-ring::before,
+.platinum-btn-ring::before {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(212,175,55,0.2) 20deg,
+    #D4AF37 45deg,
+    #f5e070 55deg,
+    #D4AF37 65deg,
+    rgba(212,175,55,0.2) 85deg,
+    transparent 110deg,
+    transparent 250deg,
+    rgba(212,175,55,0.15) 270deg,
+    rgba(212,175,55,0.4) 290deg,
+    rgba(212,175,55,0.15) 310deg,
+    transparent 330deg,
+    transparent 360deg
+  );
+  animation: platinum-rotate 4s linear infinite;
+}
+/* inner cover reveals only the 2px border strip */
+.platinum-border-ring::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: white;
+  border-radius: 1px;
+}
+.platinum-btn-ring::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: #171717;
+  border-radius: 1px;
+}
+
+/* react-day-picker — H One gold theme */
+.rdp-hone {
+  --rdp-accent-color: #D4AF37;
+  --rdp-accent-background-color: rgba(212, 175, 55, 0.12);
+  --rdp-range_middle-background-color: rgba(212, 175, 55, 0.10);
+  --rdp-range_start-date-background-color: #D4AF37;
+  --rdp-range_end-date-background-color: #D4AF37;
+  --rdp-range_start-color: #fff;
+  --rdp-range_end-color: #fff;
+  --rdp-today-color: #D4AF37;
+  --rdp-day_button-border-radius: 2px;
+  --rdp-day-height: 36px;
+  --rdp-day-width: 36px;
+  --rdp-day_button-height: 34px;
+  --rdp-day_button-width: 34px;
+  --rdp-selected-border: 2px solid #D4AF37;
+  font-family: inherit;
+  font-size: 13px;
+}
+
+.rdp-hone .rdp-month_caption {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  padding-bottom: 0.75rem;
+}
+
+.rdp-hone .rdp-weekday {
+  font-size: 9px;
+  font-weight: 300;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  width: 36px;
+}
+
+.rdp-hone .rdp-day {
+  font-size: 12px;
+  font-weight: 300;
+  color: #333;
+}
+
+/* Available dates — larger + bold */
+.rdp-hone .rdp-day:not(.rdp-day_disabled) .rdp-day_button {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+/* Selected date — gold block */
+.rdp-hone .rdp-selected .rdp-day_button,
+.rdp-hone .rdp-day_button[aria-selected="true"] {
+  background-color: #D4AF37 !important;
+  color: #fff !important;
+  border-radius: 4px;
+  border: none !important;
+  font-weight: 700;
+}
+
+/* Price under each date ("1.250K") + holiday colours — see src/calendarDay.tsx */
+.rdp-hone.rdp-priced {
+  --rdp-day-height: 46px;
+  --rdp-day-width: 42px;
+  --rdp-day_button-height: 44px;
+  --rdp-day_button-width: 40px;
+}
+.rdp-hone .rdp-day_button { flex-direction: column; }
+.rdp-hone .rdp-daynum { line-height: 1; }
+.rdp-hone .rdp-price {
+  display: block;
+  margin-top: 3px;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #8A6D00;
+}
+.rdp-hone .rdp-day_button.rdp-libur .rdp-daynum { color: #dc2626; }
+.rdp-hone .rdp-day_button.rdp-cuti .rdp-daynum { color: #ea580c; }
+.rdp-hone .rdp-day_button[aria-selected="true"] .rdp-daynum,
+.rdp-hone .rdp-day_button[aria-selected="true"] .rdp-price { color: #fff; }
+
+.rdp-hone .rdp-nav {
+  gap: 0.25rem;
+}
+
+/* 2 months side-by-side */
+.rdp-hone .rdp-months {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+
+@media (max-width: 767px) {
+  .rdp-hone .rdp-months {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}
+
+/* iOS fix: prevent zoom on input focus (font-size must be >= 16px on iOS) */
+@supports (-webkit-touch-callout: none) {
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="number"],
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /checkout
+Disallow: /booking/
+
+Sitemap: https://www.hone.example/sitemap.xml

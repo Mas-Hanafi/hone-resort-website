@@ -1,0 +1,122 @@
+{
+  "home": {
+    "path": "/",
+    "title": "H One Resort | Private Pool · Pantai Contoh, Kabupaten Contoh",
+    "description": "Resort private pool di Pantai Contoh, Kabupaten Contoh, Kota Contoh. Setiap kamar dengan private pool view laut. Staycation mewah, honeymoon & corporate retreat terbaik di Kota Contoh.",
+    "canonical": "https://www.hone.example/",
+    "ogTitle": "H One Resort | Luxury Coastal Retreat",
+    "ogDescription": "Resort private pool di Pantai Contoh, Kabupaten Contoh, Kota Contoh. Setiap kamar dengan private pool view laut langsung. Staycation mewah, corporate retreat & honeymoon terbaik di Kota Contoh.",
+    "ogImage": "https://www.hone.example/og-image.jpg",
+    "breadcrumbName": "Home"
+  },
+  "rooms": {
+    "path": "/rooms",
+    "title": "Kamar & Suite | H One Resort – Private Pool Pantai Contoh",
+    "description": "5 tipe kamar private pool: Superior Sea View (32m²), Deluxe Sea View (42m²), hingga Suite Sea View (65m²). Mulai Rp1.260.000/malam di Pantai Contoh, Kabupaten Contoh.",
+    "canonical": "https://www.hone.example/rooms",
+    "ogTitle": "Kamar & Suite Private Pool — H One Resort",
+    "ogDescription": "5 tipe kamar private pool dengan view laut & taman tropis. Superior, Deluxe, hingga Suite Sea View 65m² di Pantai Contoh, Kabupaten Contoh.",
+    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/ht7F0zP.jpeg",
+    "breadcrumbName": "Kamar & Suite"
+  },
+  "meetings": {
+    "path": "/meetings",
+    "title": "Meeting & Event | H One Resort Kabupaten Contoh",
+    "description": "Venue meeting dan event di tepi pantai H One, Kabupaten Contoh. Paket corporate retreat, team building, gathering dengan pemandangan laut selatan Kota Contoh.",
+    "canonical": "https://www.hone.example/meetings",
+    "ogTitle": "Meeting & Event Sea View — H One Resort",
+    "ogDescription": "Venue meeting & corporate retreat di tepi Pantai Contoh dengan panorama laut selatan Kota Contoh. Privat, fokus, dan berstandar luxury.",
+    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/SDnmGz9.jpeg",
+    "breadcrumbName": "Meeting & Event"
+  },
+  "gallery": {
+    "path": "/gallery",
+    "title": "Galeri | H One Resort – Foto & Video Resort Pantai Contoh",
+    "description": "Koleksi foto dan video H One Resort — private pool, kamar sea view, pantai H One, dan pengalaman unik di Kabupaten Contoh, Kota Contoh.",
+    "canonical": "https://www.hone.example/gallery",
+    "ogTitle": "Galeri Foto & Video — H One Resort",
+    "ogDescription": "Lihat private pool, kamar sea view, pantai H One, dan signature experience H One Resort di Kabupaten Contoh, Kota Contoh.",
+    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/SH5GRiO.jpeg",
+    "breadcrumbName": "Galeri"
+  },
+  "pricelist": {
+    "path": "/pricelist",
+    "title": "Harga Kamar | H One Resort – Pricelist Terbaru 2026",
+    "description": "Harga kamar H One Resort 2026. Superior Sea View mulai Rp1.250.000, Deluxe mulai Rp1.370.000, Suite Sea View mulai Rp2.300.000/malam.",
+    "canonical": "https://www.hone.example/pricelist",
+    "ogTitle": "Pricelist Kamar 2026 — H One Resort",
+    "ogDescription": "Harga kamar private pool H One Resort 2026. Mulai Rp1.260.000/malam. Booking langsung via WhatsApp, tanpa biaya OTA.",
+    "ogImage": "https://www.hone.example/og-image.jpg",
+    "breadcrumbName": "Pricelist"
+  },
+  "experiences-floating": {
+    "path": "/experiences/floating",
+    "title": "Floating Breakfast | H One Resort – Private Pool Pantai Contoh",
+    "description": "Sarapan mengapung di kolam privat H One Resort. Nampan apung eksklusif, layanan terpersonalisasi, suasana tanpa tergesa di Pantai Contoh, Kabupaten Contoh. Rp350.000.",
+    "canonical": "https://www.hone.example/experiences/floating",
+    "ogTitle": "Floating Breakfast — H One Resort",
+    "ogDescription": "Kolam privat. Nampan apung. Waktu yang sepenuhnya milik Anda. Signature experience eksklusif di Pantai Contoh, Kabupaten Contoh.",
+    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/GhFJvq5.jpeg",
+    "breadcrumbName": "Floating Breakfast"
+  },
+  "experiences-dinner": {
+    "path": "/experiences/dinner",
+    "title": "Romantic Dinner | H One Resort – Pantai Contoh Kabupaten Contoh",
+    "description": "Romantic dinner privat untuk pasangan di H One Resort. Tenderloin Steak, dekorasi elegan, suasana pantai H One Kabupaten Contoh. Rp500.000/couple.",
+    "canonical": "https://www.hone.example/experiences/dinner",
+    "ogTitle": "Romantic Dinner — H One Resort",
+    "ogDescription": "Meja disiapkan hanya untuk berdua. Romantic dinner privat dengan sajian eksklusif di Pantai Contoh, Kabupaten Contoh.",
+    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/HpmYccs.jpeg",
+    "breadcrumbName": "Romantic Dinner"
+  },
+  "experiences-jeep": {
+    "path": "/experiences/jeep",
+    "title": "H One Jeep Adventure | H One Resort – Wisata Pantai Kabupaten Contoh",
+    "description": "Jelajahi pesisir selatan Kabupaten Contoh dengan Jeep adventure. Rute H One–Krakal–Sarangan atau H One–Sepanjang–Nglolang. Kapasitas 4 pax. Rp350.000.",
+    "canonical": "https://www.hone.example/experiences/jeep",
+    "ogTitle": "H One Jeep Adventure — H One Resort",
+    "ogDescription": "Eksplorasi pesisir selatan Kabupaten Contoh dengan Jeep. Rute eksklusif dari H One Resort. Rp350.000 / 4 Pax.",
+    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/MNq2vF7.jpeg",
+    "breadcrumbName": "H One Jeep Adventure"
+  },
+  "experiences-bbq": {
+    "path": "/experiences/bbq",
+    "title": "Rooftop BBQ Experience | H One Resort – Pantai Contoh",
+    "description": "BBQ privat di rooftop H One Resort dengan angin laut dan langit terbuka. Paket lengkap untuk 4 orang. Rp350.000/4 Pax di Pantai Contoh Kabupaten Contoh.",
+    "canonical": "https://www.hone.example/experiences/bbq",
+    "ogTitle": "Rooftop BBQ Experience — H One Resort",
+    "ogDescription": "Angin laut, langit terbuka, dan bara yang menyala perlahan. Private BBQ di rooftop H One Resort, Pantai Contoh.",
+    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/l7TWFGd.jpg",
+    "breadcrumbName": "Rooftop BBQ"
+  },
+  "experiences-bajaj": {
+    "path": "/experiences/bajaj",
+    "title": "Coastal Bajaj Fun Trip | H One Resort – Wisata Kabupaten Contoh",
+    "description": "Perjalanan santai menyusuri kawasan H One dengan bajaj antik. Rute H One–Slili–Sadranan. Signature experience unik di Pantai Contoh, Kabupaten Contoh. Rp350.000.",
+    "canonical": "https://www.hone.example/experiences/bajaj",
+    "ogTitle": "Coastal Bajaj Fun Trip — H One Resort",
+    "ogDescription": "Cara paling estetik menjelajahi kawasan H One. Perjalanan santai dengan bajaj dari H One Resort, Kabupaten Contoh.",
+    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/6NqMxmV.jpeg",
+    "breadcrumbName": "Coastal Bajaj Fun Trip"
+  },
+  "experiences-towel": {
+    "path": "/experiences/towel",
+    "title": "Romantic Towel Art | H One Resort – Honeymoon Kabupaten Contoh",
+    "description": "Dekorasi kamar romantis dengan towel art dan kelopak bunga untuk honeymoon atau anniversary di H One Resort, Pantai Contoh Kabupaten Contoh. Rp250.000/setup.",
+    "canonical": "https://www.hone.example/experiences/towel",
+    "ogTitle": "Romantic Towel Art — H One Resort",
+    "ogDescription": "Swan towel art, kelopak bunga segar, disiapkan diam-diam sebelum Anda tiba. Honeymoon special di Pantai Contoh.",
+    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/A7p4LM2.jpeg",
+    "breadcrumbName": "Romantic Towel"
+  },
+  "experiences-cake": {
+    "path": "/experiences/cake",
+    "title": "Slice of Cake | H One Resort – Pantai Contoh Kabupaten Contoh",
+    "description": "Kue premium dari Pastry Chef H One Resort untuk perayaan kecil yang bermakna. Plating elegan, antar ke kamar. Rp100.000/slice di Pantai Contoh.",
+    "canonical": "https://www.hone.example/experiences/cake",
+    "ogTitle": "Slice of Cake — H One Resort",
+    "ogDescription": "Dari tangan Pastry Chef kami, untuk momen yang layak dirayakan. Kue premium dengan plating elegan di H One Resort.",
+    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/oxMN5GC.jpeg",
+    "breadcrumbName": "Slice of Cake"
+  }
+}
