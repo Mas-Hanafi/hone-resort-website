@@ -16,7 +16,7 @@
     "canonical": "https://www.hone.example/rooms",
     "ogTitle": "Kamar & Suite Private Pool — H One Resort",
     "ogDescription": "5 tipe kamar private pool dengan view laut & taman tropis. Superior, Deluxe, hingga Suite Sea View 65m² di Pantai Contoh, Kabupaten Contoh.",
-    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/ht7F0zP.jpeg",
+    "ogImage": "https://hone.example/img/rooms-1.webp",
     "breadcrumbName": "Kamar & Suite"
   },
   "meetings": {
@@ -26,7 +26,7 @@
     "canonical": "https://www.hone.example/meetings",
     "ogTitle": "Meeting & Event Sea View — H One Resort",
     "ogDescription": "Venue meeting & corporate retreat di tepi Pantai Contoh dengan panorama laut selatan Kota Contoh. Privat, fokus, dan berstandar luxury.",
-    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/SDnmGz9.jpeg",
+    "ogImage": "https://hone.example/img/rooms-1.webp",
     "breadcrumbName": "Meeting & Event"
   },
   "gallery": {
@@ -36,7 +36,7 @@
     "canonical": "https://www.hone.example/gallery",
     "ogTitle": "Galeri Foto & Video — H One Resort",
     "ogDescription": "Lihat private pool, kamar sea view, pantai H One, dan signature experience H One Resort di Kabupaten Contoh, Kota Contoh.",
-    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/SH5GRiO.jpeg",
+    "ogImage": "https://hone.example/img/rooms-3.webp",
     "breadcrumbName": "Galeri"
   },
   "pricelist": {
@@ -56,7 +56,7 @@
     "canonical": "https://www.hone.example/experiences/floating",
     "ogTitle": "Floating Breakfast — H One Resort",
     "ogDescription": "Kolam privat. Nampan apung. Waktu yang sepenuhnya milik Anda. Signature experience eksklusif di Pantai Contoh, Kabupaten Contoh.",
-    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/GhFJvq5.jpeg",
+    "ogImage": "https://hone.example/img/rooms-2.webp",
     "breadcrumbName": "Floating Breakfast"
   },
   "experiences-dinner": {
@@ -66,7 +66,7 @@
     "canonical": "https://www.hone.example/experiences/dinner",
     "ogTitle": "Romantic Dinner — H One Resort",
     "ogDescription": "Meja disiapkan hanya untuk berdua. Romantic dinner privat dengan sajian eksklusif di Pantai Contoh, Kabupaten Contoh.",
-    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/HpmYccs.jpeg",
+    "ogImage": "https://hone.example/img/rooms-2.webp",
     "breadcrumbName": "Romantic Dinner"
   },
   "experiences-jeep": {
@@ -76,7 +76,7 @@
     "canonical": "https://www.hone.example/experiences/jeep",
     "ogTitle": "H One Jeep Adventure — H One Resort",
     "ogDescription": "Eksplorasi pesisir selatan Kabupaten Contoh dengan Jeep. Rute eksklusif dari H One Resort. Rp350.000 / 4 Pax.",
-    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/MNq2vF7.jpeg",
+    "ogImage": "https://hone.example/img/rooms-1.webp",
     "breadcrumbName": "H One Jeep Adventure"
   },
   "experiences-bbq": {
@@ -86,7 +86,7 @@
     "canonical": "https://www.hone.example/experiences/bbq",
     "ogTitle": "Rooftop BBQ Experience — H One Resort",
     "ogDescription": "Angin laut, langit terbuka, dan bara yang menyala perlahan. Private BBQ di rooftop H One Resort, Pantai Contoh.",
-    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/l7TWFGd.jpg",
+    "ogImage": "https://hone.example/img/rooms-4.webp",
     "breadcrumbName": "Rooftop BBQ"
   },
   "experiences-bajaj": {
@@ -96,7 +96,7 @@
     "canonical": "https://www.hone.example/experiences/bajaj",
     "ogTitle": "Coastal Bajaj Fun Trip — H One Resort",
     "ogDescription": "Cara paling estetik menjelajahi kawasan H One. Perjalanan santai dengan bajaj dari H One Resort, Kabupaten Contoh.",
-    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/6NqMxmV.jpeg",
+    "ogImage": "https://hone.example/img/rooms-4.webp",
     "breadcrumbName": "Coastal Bajaj Fun Trip"
   },
   "experiences-towel": {
@@ -106,7 +106,7 @@
     "canonical": "https://www.hone.example/experiences/towel",
     "ogTitle": "Romantic Towel Art — H One Resort",
     "ogDescription": "Swan towel art, kelopak bunga segar, disiapkan diam-diam sebelum Anda tiba. Honeymoon special di Pantai Contoh.",
-    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/A7p4LM2.jpeg",
+    "ogImage": "https://hone.example/img/rooms-1.webp",
     "breadcrumbName": "Romantic Towel"
   },
   "experiences-cake": {
@@ -116,7 +116,7 @@
     "canonical": "https://www.hone.example/experiences/cake",
     "ogTitle": "Slice of Cake — H One Resort",
     "ogDescription": "Dari tangan Pastry Chef kami, untuk momen yang layak dirayakan. Kue premium dengan plating elegan di H One Resort.",
-    "ogImage": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/oxMN5GC.jpeg",
+    "ogImage": "https://hone.example/img/rooms-2.webp",
     "breadcrumbName": "Slice of Cake"
   }
 }

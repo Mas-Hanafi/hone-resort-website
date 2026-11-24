@@ -270,12 +270,11 @@
     </script>
 
     <!-- Preconnect + preload hero assets -->
-    <link rel="preconnect" href="https://res.cloudinary.com" />
     <!-- Mobile: still image hero -->
-    <link rel="preload" as="image" href="https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_60,w_828/https://i.imgur.com/Bu0l9Oi.jpeg" media="(max-width: 767px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="https://hone.example/img/rooms-1.webp" media="(max-width: 767px)" fetchpriority="high" />
     <!-- Desktop: video poster (LCP) + video -->
-    <link rel="preload" as="image" href="https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_60,w_1440/https://i.imgur.com/Bu0l9Oi.jpeg" media="(min-width: 768px)" fetchpriority="high" />
-    <link rel="preload" as="video" href="https://res.cloudinary.com/YOUR_CLOUD_NAME/video/fetch/q_auto/https://i.imgur.com/aMNrnEs.mp4" type="video/mp4" media="(min-width: 768px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="https://hone.example/img/rooms-1.webp" media="(min-width: 768px)" fetchpriority="high" />
+    <link rel="preload" as="video" href="/media/hero.mp4" type="video/mp4" media="(min-width: 768px)" fetchpriority="high" />
 
     <!-- Preconnect critical origins -->
     <link rel="preconnect" href="https://www.googletagmanager.com" />

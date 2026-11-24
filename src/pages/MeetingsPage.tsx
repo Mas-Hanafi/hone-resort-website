@@ -52,7 +52,7 @@ export default function MeetingsPage({ navigate, handleGeneralInquiry, packages 
         </button>
         <ScrollReveal variant="blur" className="w-full h-[50vh] md:h-[60vh] overflow-hidden rounded-sm shadow-xl md:shadow-2xl mb-16 md:mb-20 relative flex items-center justify-center text-center">
           <video autoPlay loop muted playsInline preload="none" className="absolute inset-0 w-full h-full object-cover">
-            <source src="https://res.cloudinary.com/YOUR_CLOUD_NAME/video/fetch/q_auto/https://i.imgur.com/uYxomrP.mp4" type="video/mp4" />
+            <source src="/media/hero.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-black/60"></div>
           <div className="relative z-10 flex flex-col items-center justify-center p-6 md:p-12 w-full max-w-3xl">

@@ -7,12 +7,12 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/Bu0l9Oi.jpeg</image:loc>
+      <image:loc>https://hone.example/img/rooms-1.webp</image:loc>
       <image:title>H One Resort — Resort Private Pool di Pantai Contoh, Kabupaten Contoh</image:title>
       <image:caption>Pemandangan resort private pool H One Resort dengan latar laut selatan Kota Contoh</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/oxMN5GC.jpeg</image:loc>
+      <image:loc>https://hone.example/img/rooms-2.webp</image:loc>
       <image:title>H One Resort — Area Resort dan Kolam Renang Private</image:title>
       <image:caption>Area kolam renang private H One Resort, Pantai Contoh Kabupaten Contoh</image:caption>
     </image:image>
@@ -23,27 +23,27 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/ht7F0zP.jpeg</image:loc>
+      <image:loc>https://hone.example/img/rooms-1.webp</image:loc>
       <image:title>Superior Sea View — Kamar Private Pool View Laut H One Resort</image:title>
       <image:caption>Kamar Superior Sea View 32m² dengan private pool dan pemandangan laut selatan di H One Resort</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/oxYbkEw.jpeg</image:loc>
+      <image:loc>https://hone.example/img/rooms-4.webp</image:loc>
       <image:title>Superior Garden View — Kamar Private Pool Taman Tropis H One Resort</image:title>
       <image:caption>Kamar Superior Garden View 32m² dengan private pool dikelilingi taman tropis di H One Resort</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/ocljqF0.jpeg</image:loc>
+      <image:loc>https://hone.example/img/rooms-3.webp</image:loc>
       <image:title>Deluxe Sea View — Kamar Luas Private Pool Panorama Laut H One Resort</image:title>
       <image:caption>Kamar Deluxe Sea View 42m² dengan private pool dan panorama pesisir selatan tanpa hambatan</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/4rS8xBv.jpeg</image:loc>
+      <image:loc>https://hone.example/img/rooms-4.webp</image:loc>
       <image:title>Deluxe Garden View — Kamar Private Pool Taman H One Resort</image:title>
       <image:caption>Kamar Deluxe Garden View 42m² dengan private pool dan pemandangan taman tropis yang tenang</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/SKBkcRN.jpeg</image:loc>
+      <image:loc>https://hone.example/img/rooms-3.webp</image:loc>
       <image:title>Suite Sea View — Suite Eksklusif 65m² Private Pool H One Resort</image:title>
       <image:caption>Suite Sea View 65m² dengan Super King Bed, private pool, dan panorama laut selatan terluas di H One Resort</image:caption>
     </image:image>

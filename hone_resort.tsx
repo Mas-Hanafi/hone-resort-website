@@ -281,43 +281,43 @@ const requestPrices: Record<string, string> = {
 };
 
 const aboutImages = [
-  "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_600/https://i.imgur.com/Bu0l9Oi.jpeg", "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_600/https://i.imgur.com/oxMN5GC.jpeg", "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_600/https://i.imgur.com/aIT0IdB.jpg"
+  "/img/rooms-1.webp", "/img/rooms-2.webp", "/img/rooms-2.webp"
 ];
 
 const roomsData = [
-  { name: "Superior Sea View", image: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/ht7F0zP.jpeg", size: "32 m²", bed: "1 King Bed / Twin Bed (Upon request)", tagline: "Where the horizon becomes your most faithful companion.", desc: "Suara ombak adalah satu-satunya alarm yang diizinkan di sini. Cahaya pagi menyebar perlahan di atas permukaan laut — lembut, tanpa tergesa, seperti hari yang mengerti bahwa Anda butuh waktu. Sanctuary ini bukan sekadar kamar dengan sea view. Ia adalah percakapan pribadi antara Anda dan samudra selatan." },
-  { name: "Superior Garden View", image: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/oxYbkEw.jpeg", size: "32 m²", bed: "1 King Bed / Twin Bed (Upon request)", tagline: "A private world softened by green and shadow.", desc: "Di balik kanopi tropis yang menaungi, dunia terasa lebih kecil — dan justru di situ, ia terasa lebih utuh. Cahaya menyaring lembut melalui dedaunan di pagi hari; angin membawa aroma tanah basah saat sore menjelang. Untuk mereka yang menemukan kedalaman bukan dalam pemandangan yang luas, melainkan dalam keheningan yang dekat." },
-  { name: "Deluxe Sea View", image: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/ocljqF0.jpeg", size: "42 m²", bed: "1 King Bed / Twin Bed (Upon request)", tagline: "An uninterrupted dialogue with the southern sea.", desc: "Ruang yang lebih lapang bukan berarti lebih banyak furnitur — melainkan lebih banyak laut. Panorama pesisir selatan terbentang tanpa hambatan dari setiap sudut sanctuary ini, membiarkan suara ombak, kualitas cahaya, dan pergerakan air menjadi bagian dari ritme harian Anda. Ini bukan sekadar view. Ini adalah immersion." },
-  { name: "Deluxe Garden View", image: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/4rS8xBv.jpeg", size: "42 m²", bed: "1 King Bed / Twin Bed (Upon request)", tagline: "Depth, shadow, and an uncommon stillness.", desc: "Ada kemewahan yang tidak perlu panorama luas untuk membuktikan diri. Di sanctuary ini, privasi terasa seperti arsitektur itu sendiri — terbangun dari hijau yang mengelilingi, bayangan yang meneduhkan, dan kesunyian yang tidak pernah terasa kosong. Ruang yang melindungi, bukan sekadar mewadahi." },
-  { name: "Suite Sea View", image: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/SKBkcRN.jpeg", size: "65 m²", bed: "1 Super King Bed", tagline: "The most considered space we offer. Nothing left to chance.", desc: "Enam puluh lima meter persegi yang dirancang dengan obsesi terhadap detail — di mana setiap proporsi, setiap sightline, setiap material telah melalui pertimbangan yang panjang. Suite Sea View menguasai panorama pesisir terluas di resort ini — bukan sebagai pamer, melainkan sebagai pernyataan tentang apa yang Anda layak rasakan. Untuk mereka yang tahu perbedaannya." }
+  { name: "Superior Sea View", image: "/img/rooms-1.webp", size: "32 m²", bed: "1 King Bed / Twin Bed (Upon request)", tagline: "Where the horizon becomes your most faithful companion.", desc: "Suara ombak adalah satu-satunya alarm yang diizinkan di sini. Cahaya pagi menyebar perlahan di atas permukaan laut — lembut, tanpa tergesa, seperti hari yang mengerti bahwa Anda butuh waktu. Sanctuary ini bukan sekadar kamar dengan sea view. Ia adalah percakapan pribadi antara Anda dan samudra selatan." },
+  { name: "Superior Garden View", image: "/img/rooms-4.webp", size: "32 m²", bed: "1 King Bed / Twin Bed (Upon request)", tagline: "A private world softened by green and shadow.", desc: "Di balik kanopi tropis yang menaungi, dunia terasa lebih kecil — dan justru di situ, ia terasa lebih utuh. Cahaya menyaring lembut melalui dedaunan di pagi hari; angin membawa aroma tanah basah saat sore menjelang. Untuk mereka yang menemukan kedalaman bukan dalam pemandangan yang luas, melainkan dalam keheningan yang dekat." },
+  { name: "Deluxe Sea View", image: "/img/rooms-3.webp", size: "42 m²", bed: "1 King Bed / Twin Bed (Upon request)", tagline: "An uninterrupted dialogue with the southern sea.", desc: "Ruang yang lebih lapang bukan berarti lebih banyak furnitur — melainkan lebih banyak laut. Panorama pesisir selatan terbentang tanpa hambatan dari setiap sudut sanctuary ini, membiarkan suara ombak, kualitas cahaya, dan pergerakan air menjadi bagian dari ritme harian Anda. Ini bukan sekadar view. Ini adalah immersion." },
+  { name: "Deluxe Garden View", image: "/img/rooms-4.webp", size: "42 m²", bed: "1 King Bed / Twin Bed (Upon request)", tagline: "Depth, shadow, and an uncommon stillness.", desc: "Ada kemewahan yang tidak perlu panorama luas untuk membuktikan diri. Di sanctuary ini, privasi terasa seperti arsitektur itu sendiri — terbangun dari hijau yang mengelilingi, bayangan yang meneduhkan, dan kesunyian yang tidak pernah terasa kosong. Ruang yang melindungi, bukan sekadar mewadahi." },
+  { name: "Suite Sea View", image: "/img/rooms-3.webp", size: "65 m²", bed: "1 Super King Bed", tagline: "The most considered space we offer. Nothing left to chance.", desc: "Enam puluh lima meter persegi yang dirancang dengan obsesi terhadap detail — di mana setiap proporsi, setiap sightline, setiap material telah melalui pertimbangan yang panjang. Suite Sea View menguasai panorama pesisir terluas di resort ini — bukan sebagai pamer, melainkan sebagai pernyataan tentang apa yang Anda layak rasakan. Untuk mereka yang tahu perbedaannya." }
 ];
 
 const packageDetailsData = {
-  jeep: { title: "H One Jeep Adventure", subtitle: "Signature Experience", heroImg: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/MNq2vF7.jpeg", description: "Pesisir selatan punya rute yang hanya dikenal oleh mereka yang mau melambat cukup lama untuk menemukannya. Perjalanan eksploratif menyusuri lanskap H One — bukan untuk tergesa-gesa, melainkan untuk benar-benar melihat.", includes: ["Sewa armada Jeep eksklusif", "Pengemudi profesional / guide", "Pilihan Rute A: H One - Puncak Krakal - Sarangan - Slili", "Pilihan Rute B: H One - Watu Kodok - Sepanjang - Nglolang", "Kapasitas 4 orang per Jeep (4 Pax)"], price: "Rp 350.000 / 4 Pax" },
-  bajaj: { title: "Coastal Bajaj Fun Trip", subtitle: "Signature Experience", heroImg: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/6NqMxmV.jpeg", description: "Cara paling estetik untuk mengenal kawasan H One dari perspektif yang berbeda. Sebuah perjalanan santai yang dirancang sebagai cara menikmati waktu — bukan sebagai itinerary yang harus diselesaikan.", includes: ["Armada Bajaj eksklusif", "Pengemudi lokal yang berpengalaman", "Rute perjalanan: H One - Slili - Sadranan", "Kapasitas ideal untuk menikmati perjalanan santai"], price: "Rp 350.000" },
-  bbq: { title: "Rooftop BBQ Experience", subtitle: "Signature Experience", heroImg: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/l7TWFGd.jpg", description: "Angin laut, langit terbuka, dan bara yang menyala perlahan — private BBQ di rooftop ini dirancang untuk mereka yang mengerti bahwa perayaan terbaik tidak membutuhkan kebisingan.", includes: ["Main Course: French Fries / Steamed Rice, Satay Skewers, Smoked Beef, Chicken Slices, Dumplings, Sausages, Whole Corn, Onion, Chinese Cabbage", "Condiments: BBQ Sauce, Black Pepper Sauce, Garlic Butter, Tom Yam Soup", "Dessert: Sliced Fruits", "Beverages: Infused Water, Orange Juice", "Setup meja privat di area Rooftop (Kapasitas 4 Pax)"], price: "Rp 350.000 / 4 Pax" },
-  floating: { title: "Floating Breakfast", subtitle: "Signature Experience", heroImg: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/GhFJvq5.jpeg", description: "Kolam privat. Nampan apung. Waktu yang sepenuhnya milik Anda. Tidak ada jadwal. Tidak ada tergesa. Hanya ketenangan yang mengapung bersama Anda.", includes: ["Pilihan menu sarapan atau kudapan ringan", "Nampan apung eksklusif", "Setup privat di kolam renang tamu", "Layanan terpersonalisasi tanpa disrupsi"], price: "Rp 350.000" },
-  dinner: { title: "Romantic Dinner", subtitle: "Signature Experience", heroImg: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/HpmYccs.jpeg", description: "Meja yang disiapkan hanya untuk berdua — dengan suasana yang hangat, cahaya yang tepat, dan sajian yang diracik dengan penuh perhatian. Untuk momen yang layak diingat lama setelah malam itu berakhir.", includes: ["Appetizer: Shrimp Salad", "Soup: Chicken Cream Soup", "Main Course: Tenderloin Steak", "Dessert: Banana Split", "Beverage: Virgin Mojito & Mineral Water", "Dekorasi meja tematik elegan dan privat"], price: "Rp 500.000 / Couple" },
-  towel: { title: "Romantic Towel", subtitle: "Special Occasions", heroImg: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/A7p4LM2.jpeg", description: "Sebuah detail kecil yang mengubah kamar menjadi ruang perayaan — disiapkan diam-diam sebelum Anda tiba, menunggu tanpa bersuara.", includes: ["Swan towel art arrangement", "Taburan kelopak bunga segar", "Setup rapi sebelum kedatangan", "Sentuhan personal sesuai permintaan"], price: "Rp 250.000 / Setup" },
-  cake: { title: "Slice of Cake", subtitle: "Special Occasions", heroImg: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/oxMN5GC.jpeg", description: "Dari tangan Pastry Chef kami, untuk satu momen yang layak dirayakan — sekecil atau sebesar apa pun alasannya.", includes: ["Potongan kue premium dari Pastry Chef", "Plating dekoratif elegan", "Layanan pengantaran ke kamar yang tepat waktu"], price: "Rp 100.000 / Slice" }
+  jeep: { title: "H One Jeep Adventure", subtitle: "Signature Experience", heroImg: "/img/rooms-1.webp", description: "Pesisir selatan punya rute yang hanya dikenal oleh mereka yang mau melambat cukup lama untuk menemukannya. Perjalanan eksploratif menyusuri lanskap H One — bukan untuk tergesa-gesa, melainkan untuk benar-benar melihat.", includes: ["Sewa armada Jeep eksklusif", "Pengemudi profesional / guide", "Pilihan Rute A: H One - Puncak Krakal - Sarangan - Slili", "Pilihan Rute B: H One - Watu Kodok - Sepanjang - Nglolang", "Kapasitas 4 orang per Jeep (4 Pax)"], price: "Rp 350.000 / 4 Pax" },
+  bajaj: { title: "Coastal Bajaj Fun Trip", subtitle: "Signature Experience", heroImg: "/img/rooms-4.webp", description: "Cara paling estetik untuk mengenal kawasan H One dari perspektif yang berbeda. Sebuah perjalanan santai yang dirancang sebagai cara menikmati waktu — bukan sebagai itinerary yang harus diselesaikan.", includes: ["Armada Bajaj eksklusif", "Pengemudi lokal yang berpengalaman", "Rute perjalanan: H One - Slili - Sadranan", "Kapasitas ideal untuk menikmati perjalanan santai"], price: "Rp 350.000" },
+  bbq: { title: "Rooftop BBQ Experience", subtitle: "Signature Experience", heroImg: "/img/rooms-4.webp", description: "Angin laut, langit terbuka, dan bara yang menyala perlahan — private BBQ di rooftop ini dirancang untuk mereka yang mengerti bahwa perayaan terbaik tidak membutuhkan kebisingan.", includes: ["Main Course: French Fries / Steamed Rice, Satay Skewers, Smoked Beef, Chicken Slices, Dumplings, Sausages, Whole Corn, Onion, Chinese Cabbage", "Condiments: BBQ Sauce, Black Pepper Sauce, Garlic Butter, Tom Yam Soup", "Dessert: Sliced Fruits", "Beverages: Infused Water, Orange Juice", "Setup meja privat di area Rooftop (Kapasitas 4 Pax)"], price: "Rp 350.000 / 4 Pax" },
+  floating: { title: "Floating Breakfast", subtitle: "Signature Experience", heroImg: "/img/rooms-2.webp", description: "Kolam privat. Nampan apung. Waktu yang sepenuhnya milik Anda. Tidak ada jadwal. Tidak ada tergesa. Hanya ketenangan yang mengapung bersama Anda.", includes: ["Pilihan menu sarapan atau kudapan ringan", "Nampan apung eksklusif", "Setup privat di kolam renang tamu", "Layanan terpersonalisasi tanpa disrupsi"], price: "Rp 350.000" },
+  dinner: { title: "Romantic Dinner", subtitle: "Signature Experience", heroImg: "/img/rooms-2.webp", description: "Meja yang disiapkan hanya untuk berdua — dengan suasana yang hangat, cahaya yang tepat, dan sajian yang diracik dengan penuh perhatian. Untuk momen yang layak diingat lama setelah malam itu berakhir.", includes: ["Appetizer: Shrimp Salad", "Soup: Chicken Cream Soup", "Main Course: Tenderloin Steak", "Dessert: Banana Split", "Beverage: Virgin Mojito & Mineral Water", "Dekorasi meja tematik elegan dan privat"], price: "Rp 500.000 / Couple" },
+  towel: { title: "Romantic Towel", subtitle: "Special Occasions", heroImg: "/img/rooms-1.webp", description: "Sebuah detail kecil yang mengubah kamar menjadi ruang perayaan — disiapkan diam-diam sebelum Anda tiba, menunggu tanpa bersuara.", includes: ["Swan towel art arrangement", "Taburan kelopak bunga segar", "Setup rapi sebelum kedatangan", "Sentuhan personal sesuai permintaan"], price: "Rp 250.000 / Setup" },
+  cake: { title: "Slice of Cake", subtitle: "Special Occasions", heroImg: "/img/rooms-2.webp", description: "Dari tangan Pastry Chef kami, untuk satu momen yang layak dirayakan — sekecil atau sebesar apa pun alasannya.", includes: ["Potongan kue premium dari Pastry Chef", "Plating dekoratif elegan", "Layanan pengantaran ke kamar yang tepat waktu"], price: "Rp 100.000 / Slice" }
 };
 
 const allPackages = [
-  { id: 'jeep', title: "H One Jeep Adventure", img: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/MNq2vF7.jpeg", desc: "Pesisir selatan punya rute yang hanya dikenal oleh mereka yang mau melambat cukup lama untuk menemukannya." },
-  { id: 'bajaj', title: "Coastal Bajaj Fun Trip", img: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/6NqMxmV.jpeg", desc: "Cara paling estetik untuk mengenal kawasan H One dari perspektif yang berbeda. Sebuah perjalanan santai." },
-  { id: 'bbq', title: "Rooftop BBQ Experience", img: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/l7TWFGd.jpg", desc: "Angin laut, langit terbuka, dan bara yang menyala perlahan — private BBQ di rooftop ini dirancang untuk momen tenang." },
-  { id: 'floating', title: "Floating Breakfast", img: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/GhFJvq5.jpeg", desc: "Kolam privat. Nampan apung. Waktu yang sepenuhnya milik Anda tanpa tergesa." },
-  { id: 'dinner', title: "Romantic Dinner", img: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/HpmYccs.jpeg", desc: "Meja yang disiapkan hanya untuk berdua — dengan suasana yang hangat, cahaya yang tepat." },
-  { id: 'towel', title: "Romantic Towel", img: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/A7p4LM2.jpeg", desc: "Sebuah detail kecil yang mengubah kamar menjadi ruang perayaan yang disiapkan secara rahasia." },
-  { id: 'cake', title: "Slice of Cake", img: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/oxMN5GC.jpeg", desc: "Dari tangan Pastry Chef kami, untuk satu momen yang layak dirayakan." }
+  { id: 'jeep', title: "H One Jeep Adventure", img: "/img/rooms-1.webp", desc: "Pesisir selatan punya rute yang hanya dikenal oleh mereka yang mau melambat cukup lama untuk menemukannya." },
+  { id: 'bajaj', title: "Coastal Bajaj Fun Trip", img: "/img/rooms-4.webp", desc: "Cara paling estetik untuk mengenal kawasan H One dari perspektif yang berbeda. Sebuah perjalanan santai." },
+  { id: 'bbq', title: "Rooftop BBQ Experience", img: "/img/rooms-4.webp", desc: "Angin laut, langit terbuka, dan bara yang menyala perlahan — private BBQ di rooftop ini dirancang untuk momen tenang." },
+  { id: 'floating', title: "Floating Breakfast", img: "/img/rooms-2.webp", desc: "Kolam privat. Nampan apung. Waktu yang sepenuhnya milik Anda tanpa tergesa." },
+  { id: 'dinner', title: "Romantic Dinner", img: "/img/rooms-2.webp", desc: "Meja yang disiapkan hanya untuk berdua — dengan suasana yang hangat, cahaya yang tepat." },
+  { id: 'towel', title: "Romantic Towel", img: "/img/rooms-1.webp", desc: "Sebuah detail kecil yang mengubah kamar menjadi ruang perayaan yang disiapkan secara rahasia." },
+  { id: 'cake', title: "Slice of Cake", img: "/img/rooms-2.webp", desc: "Dari tangan Pastry Chef kami, untuk satu momen yang layak dirayakan." }
 ];
 
 const meetingPackages = [
-  { id: 'fullboard-platinum', title: "FULLBOARD MEETING PLATINUM", img: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/gvDEChN.jpeg", desc: "Fullboard 12 jam. 2 persons/room. Coffee break, makan lengkap, LCD, sound system, dan fasilitas eksklusif." },
-  { id: 'fullboard-diamond', title: "FULLBOARD MEETING DIAMOND", img: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/qFYUnAX.jpeg", desc: "Fullboard 12 jam. 3 persons/room. Coffee break, makan lengkap, LCD, sound system, dan fasilitas eksklusif." },
-  { id: 'fullboard-gold', title: "FULLBOARD MEETING GOLD", img: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/WNWRzI4.jpeg", desc: "Fullboard 12 jam. 4 persons/room. Coffee break, makan lengkap, LCD, sound system, dan fasilitas eksklusif." },
-  { id: 'fullday', title: "FULL DAY MEETING", img: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/KJAt0WB.jpeg", desc: "Untuk pertemuan hingga 8 jam. Dua sesi coffee break, sajian makan siang, dan amenities yang disiapkan seamless." },
-  { id: 'halfday', title: "HALF DAY MEETING", img: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/t5TdB8L.jpeg", desc: "Untuk pertemuan hingga 4 jam. Akses ruang eksklusif, coffee break, makan siang/malam, dan dukungan profesional." },
+  { id: 'fullboard-platinum', title: "FULLBOARD MEETING PLATINUM", img: "/img/rooms-2.webp", desc: "Fullboard 12 jam. 2 persons/room. Coffee break, makan lengkap, LCD, sound system, dan fasilitas eksklusif." },
+  { id: 'fullboard-diamond', title: "FULLBOARD MEETING DIAMOND", img: "/img/rooms-1.webp", desc: "Fullboard 12 jam. 3 persons/room. Coffee break, makan lengkap, LCD, sound system, dan fasilitas eksklusif." },
+  { id: 'fullboard-gold', title: "FULLBOARD MEETING GOLD", img: "/img/rooms-4.webp", desc: "Fullboard 12 jam. 4 persons/room. Coffee break, makan lengkap, LCD, sound system, dan fasilitas eksklusif." },
+  { id: 'fullday', title: "FULL DAY MEETING", img: "/img/rooms-4.webp", desc: "Untuk pertemuan hingga 8 jam. Dua sesi coffee break, sajian makan siang, dan amenities yang disiapkan seamless." },
+  { id: 'halfday', title: "HALF DAY MEETING", img: "/img/rooms-2.webp", desc: "Untuk pertemuan hingga 4 jam. Akses ruang eksklusif, coffee break, makan siang/malam, dan dukungan profesional." },
 ];
 
 
@@ -411,8 +411,10 @@ const CAT_LABELS: Record<string, [string, string]> = {
   'Experiences': ['Pengalaman', 'Experiences'], 'Aerial Photos': ['Foto Udara', 'Aerial Photos'], 'Others': ['Lainnya', 'Others'],
 };
 
-const r2GalleryImage = (folder: string, file: string, width = 800) =>
-  `https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_${width}/https://images.hone.example/${encodeURIComponent(folder)}/${encodeURIComponent(file)}`;
+// gallery photos: placeholder images in /public/img. Point this at your own storage (R2/S3/Cloudinary) for real photos.
+const GALLERY_PLACEHOLDER: Record<string, string> = { ROOM: 'rooms', 'MEETING ROOM': 'meeting', 'ACTIVITY EXPERIENCE': 'activity', AERIAL: 'aerial', OTHERS: 'others' };
+const r2GalleryImage = (folder: string, file: string, _width = 800) =>
+  `/img/${GALLERY_PLACEHOLDER[folder] ?? 'others'}-${(file.length % 4) + 1}.webp`;
 
 const R2_GALLERY_FILES: Record<string, { folder: string; files: string[] }> = {
   "Rooms": { folder: "ROOM", files: [
@@ -457,9 +459,8 @@ const galleryItems = Object.entries(R2_GALLERY_FILES).flatMap(([category, { fold
 );
 
 type GalleryItem = (typeof galleryItems)[number];
-// photos uploaded from admin sit on R2; the site shows them through Cloudinary (resize + CSP img-src)
-const viaCdn = (url: string | null | undefined, width = 1200) =>
-  url && url.startsWith('https://images.hone.example/') ? `https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_${width}/${url}` : url || '';
+// photos uploaded from admin: pass the stored URL through (add an image CDN here if you use one)
+const viaCdn = (url: string | null | undefined, _width = 1200) => url || '';
 const pickHomeGallery = (items: GalleryItem[]) => ["Rooms-0", "Meeting Room-0", "Experiences-0", "Aerial Photos-0", "Others-0", "Rooms-5"]
   .map(id => items.find(i => i.id === id)).filter((i): i is GalleryItem => !!i);
 // galeri rows (admin Galeri) -> gallery items; ids stay `${category}-${n}` so the home picks are stable
@@ -467,12 +468,12 @@ const galleryFromRows = (rows: { url: string; kategori: string }[]): GalleryItem
   const seen: Record<string, number> = {};
   return rows.filter(r => categories.includes(r.kategori)).map(r => {
     const n = seen[r.kategori] = (seen[r.kategori] ?? -1) + 1;
-    return { id: `${r.kategori}-${n}`, category: r.kategori, image: `https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/${r.url}` };
+    return { id: `${r.kategori}-${n}`, category: r.kategori, image: r.url };
   });
 };
 
 const WA_NUMBER = "6280000000000";
-// 6280000000000 -> +62 813-2555-3007 (footer display)
+// WA_NUMBER is digits only (country code first); the footer shows it formatted
 const formatWa = (n: string) => n.startsWith('62') ? `+62 ${n.slice(2, 5)}-${n.slice(5, 9)}-${n.slice(9)}` : n;
 const BOOKING_ENGINE = import.meta.env.VITE_BOOKING_ENGINE === 'on';
 
@@ -1390,11 +1391,11 @@ export default function App() {
           "name": "Kamar & Suite H One Resort",
           "url": "https://www.hone.example/rooms",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "item": { "@type": "HotelRoom", "name": "Superior Sea View", "description": "Kamar 32m² dengan private pool dan pemandangan laut selatan langsung. 1 King Bed / Twin Bed.", "url": "https://www.hone.example/rooms", "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/ht7F0zP.jpeg", "floorSize": { "@type": "QuantitativeValue", "value": 32, "unitCode": "MTK" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Private Pool", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Sea View", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Balcony", "value": true }], "offers": { "@type": "Offer", "priceCurrency": "IDR", "availability": "https://schema.org/InStock" } } },
-            { "@type": "ListItem", "position": 2, "item": { "@type": "HotelRoom", "name": "Superior Garden View", "description": "Kamar 32m² dengan private pool dikelilingi taman tropis. 1 King Bed / Twin Bed.", "url": "https://www.hone.example/rooms", "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/oxYbkEw.jpeg", "floorSize": { "@type": "QuantitativeValue", "value": 32, "unitCode": "MTK" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Private Pool", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Garden View", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Balcony", "value": true }], "offers": { "@type": "Offer", "priceCurrency": "IDR", "availability": "https://schema.org/InStock" } } },
-            { "@type": "ListItem", "position": 3, "item": { "@type": "HotelRoom", "name": "Deluxe Sea View", "description": "Kamar 42m² dengan private pool dan panorama pesisir selatan tanpa hambatan. 1 King Bed / Twin Bed.", "url": "https://www.hone.example/rooms", "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/ocljqF0.jpeg", "floorSize": { "@type": "QuantitativeValue", "value": 42, "unitCode": "MTK" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Private Pool", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Sea View", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Balcony", "value": true }], "offers": { "@type": "Offer", "priceCurrency": "IDR", "availability": "https://schema.org/InStock" } } },
-            { "@type": "ListItem", "position": 4, "item": { "@type": "HotelRoom", "name": "Deluxe Garden View", "description": "Kamar 42m² dengan private pool dan pemandangan taman tropis. 1 King Bed / Twin Bed.", "url": "https://www.hone.example/rooms", "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/4rS8xBv.jpeg", "floorSize": { "@type": "QuantitativeValue", "value": 42, "unitCode": "MTK" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Private Pool", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Garden View", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Balcony", "value": true }], "offers": { "@type": "Offer", "priceCurrency": "IDR", "availability": "https://schema.org/InStock" } } },
-            { "@type": "ListItem", "position": 5, "item": { "@type": "HotelRoom", "name": "Suite Sea View", "description": "Suite 65m² dengan Super King Bed, private pool, dan panorama laut selatan terluas di H One Resort.", "url": "https://www.hone.example/rooms", "image": "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_1200/https://i.imgur.com/SKBkcRN.jpeg", "floorSize": { "@type": "QuantitativeValue", "value": 65, "unitCode": "MTK" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Private Pool", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Sea View", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Balcony", "value": true }], "offers": { "@type": "Offer", "priceCurrency": "IDR", "availability": "https://schema.org/InStock" } } }
+            { "@type": "ListItem", "position": 1, "item": { "@type": "HotelRoom", "name": "Superior Sea View", "description": "Kamar 32m² dengan private pool dan pemandangan laut selatan langsung. 1 King Bed / Twin Bed.", "url": "https://www.hone.example/rooms", "image": "/img/rooms-1.webp", "floorSize": { "@type": "QuantitativeValue", "value": 32, "unitCode": "MTK" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Private Pool", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Sea View", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Balcony", "value": true }], "offers": { "@type": "Offer", "priceCurrency": "IDR", "availability": "https://schema.org/InStock" } } },
+            { "@type": "ListItem", "position": 2, "item": { "@type": "HotelRoom", "name": "Superior Garden View", "description": "Kamar 32m² dengan private pool dikelilingi taman tropis. 1 King Bed / Twin Bed.", "url": "https://www.hone.example/rooms", "image": "/img/rooms-4.webp", "floorSize": { "@type": "QuantitativeValue", "value": 32, "unitCode": "MTK" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Private Pool", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Garden View", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Balcony", "value": true }], "offers": { "@type": "Offer", "priceCurrency": "IDR", "availability": "https://schema.org/InStock" } } },
+            { "@type": "ListItem", "position": 3, "item": { "@type": "HotelRoom", "name": "Deluxe Sea View", "description": "Kamar 42m² dengan private pool dan panorama pesisir selatan tanpa hambatan. 1 King Bed / Twin Bed.", "url": "https://www.hone.example/rooms", "image": "/img/rooms-3.webp", "floorSize": { "@type": "QuantitativeValue", "value": 42, "unitCode": "MTK" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Private Pool", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Sea View", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Balcony", "value": true }], "offers": { "@type": "Offer", "priceCurrency": "IDR", "availability": "https://schema.org/InStock" } } },
+            { "@type": "ListItem", "position": 4, "item": { "@type": "HotelRoom", "name": "Deluxe Garden View", "description": "Kamar 42m² dengan private pool dan pemandangan taman tropis. 1 King Bed / Twin Bed.", "url": "https://www.hone.example/rooms", "image": "/img/rooms-4.webp", "floorSize": { "@type": "QuantitativeValue", "value": 42, "unitCode": "MTK" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Private Pool", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Garden View", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Balcony", "value": true }], "offers": { "@type": "Offer", "priceCurrency": "IDR", "availability": "https://schema.org/InStock" } } },
+            { "@type": "ListItem", "position": 5, "item": { "@type": "HotelRoom", "name": "Suite Sea View", "description": "Suite 65m² dengan Super King Bed, private pool, dan panorama laut selatan terluas di H One Resort.", "url": "https://www.hone.example/rooms", "image": "/img/rooms-3.webp", "floorSize": { "@type": "QuantitativeValue", "value": 65, "unitCode": "MTK" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Private Pool", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Sea View", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Balcony", "value": true }], "offers": { "@type": "Offer", "priceCurrency": "IDR", "availability": "https://schema.org/InStock" } } }
           ]
         })}</script>}
         {activePage === 'home' && <script type="application/ld+json">{JSON.stringify({
@@ -1454,7 +1455,7 @@ export default function App() {
             </div>
             {/* Center: Logo */}
             <a href="#home" onClick={(e) => handleNavClick('Home', e)} className="flex-shrink-0 transition-opacity hover:opacity-80 touch-action-manipulation focus-ring min-h-[48px] min-w-[48px] flex items-center justify-center">
-              <img src={isNavSolid ? "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_120/https://i.imgur.com/yjAEuPv.png" : "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_120/https://i.imgur.com/MqnPJrm.png"} alt="H One Resort" width="120" height="64" className="h-10 md:h-[50px] w-auto object-contain transition-all duration-500" />
+              <img src="/email-logo.png" alt="H One Resort" width="120" height="64" className="h-10 md:h-[50px] w-auto object-contain transition-all duration-500" />
             </a>
             {/* Right: Pricelist */}
             <div className="flex-1 flex items-center justify-end gap-3">
@@ -1501,7 +1502,7 @@ export default function App() {
               <div className="absolute inset-0 w-full h-full overflow-hidden">
                 {isMobile ? (
                   <img
-                    src="https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_60,w_828/https://i.imgur.com/Bu0l9Oi.jpeg"
+                    src="/img/rooms-1.webp"
                     alt={tr('H One Resort — retret mewah pesisir di Pantai Contoh, Kabupaten Contoh', 'H One Resort — coastal luxury retreat at Pantai Contoh, Kabupaten Contoh')}
                     fetchPriority="high"
                     decoding="sync"
@@ -1510,8 +1511,8 @@ export default function App() {
                     className="absolute inset-0 w-full h-full object-cover object-center opacity-90"
                   />
                 ) : (
-                  <video autoPlay loop muted playsInline preload="auto" width="1920" height="1080" poster="https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_60,w_1440/https://i.imgur.com/Bu0l9Oi.jpeg" className="absolute inset-0 w-full h-full object-cover opacity-90 transition-opacity duration-1000">
-                    <source src="https://res.cloudinary.com/YOUR_CLOUD_NAME/video/fetch/q_auto/https://i.imgur.com/aMNrnEs.mp4" type="video/mp4" />
+                  <video autoPlay loop muted playsInline preload="auto" width="1920" height="1080" poster="/img/rooms-1.webp" className="absolute inset-0 w-full h-full object-cover opacity-90 transition-opacity duration-1000">
+                    <source src="/media/hero.mp4" type="video/mp4" />
                     <p>{tr('H One Resort — retret mewah pesisir di Pantai Contoh, Kabupaten Contoh.', 'H One Resort — coastal luxury retreat at Pantai Contoh, Kabupaten Contoh.')}</p>
                   </video>
                 )}
@@ -1789,10 +1790,10 @@ export default function App() {
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
               <ScrollReveal variant="zoomIn" className="">
                 <FoodSlideshow images={[
-                  { src: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/7iehu2w.jpeg", alt: tr('Kuliner 1', 'Culinary 1') },
-                  { src: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/6iu5kF8.jpeg", alt: tr('Kuliner 2', 'Culinary 2') },
-                  { src: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/FQwLtCx.jpeg", alt: tr('Kuliner 3', 'Culinary 3') },
-                  { src: "https://res.cloudinary.com/YOUR_CLOUD_NAME/image/fetch/f_auto,q_auto,w_800/https://i.imgur.com/BZJsHwJ.jpeg", alt: tr('Kuliner 4', 'Culinary 4') },
+                  { src: "/img/rooms-2.webp", alt: tr('Kuliner 1', 'Culinary 1') },
+                  { src: "/img/rooms-2.webp", alt: tr('Kuliner 2', 'Culinary 2') },
+                  { src: "/img/rooms-4.webp", alt: tr('Kuliner 3', 'Culinary 3') },
+                  { src: "/img/rooms-1.webp", alt: tr('Kuliner 4', 'Culinary 4') },
                 ]} />
               </ScrollReveal>
               <div>
@@ -2048,7 +2049,7 @@ export default function App() {
         <div className="min-h-screen bg-stone-50 font-sans animate-in fade-in duration-500 pb-24">
           <div className="relative h-[100svh] flex items-center justify-center overflow-hidden">
             <video autoPlay loop muted playsInline preload="none" className="absolute inset-0 w-full h-full object-cover">
-              <source src="https://res.cloudinary.com/YOUR_CLOUD_NAME/video/fetch/q_auto/https://i.imgur.com/Rl1cnO6.mp4" type="video/mp4" />
+              <source src="/media/hero.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-black/50" />
             <div className="relative z-10 text-center text-white px-4">
