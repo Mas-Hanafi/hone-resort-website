@@ -1455,7 +1455,7 @@ export default function App() {
             </div>
             {/* Center: Logo */}
             <a href="#home" onClick={(e) => handleNavClick('Home', e)} className="flex-shrink-0 transition-opacity hover:opacity-80 touch-action-manipulation focus-ring min-h-[48px] min-w-[48px] flex items-center justify-center">
-              <img src="/email-logo.png" alt="H One Resort" width="120" height="64" className="h-10 md:h-[50px] w-auto object-contain transition-all duration-500" />
+              <img src={isNavSolid ? '/email-logo.png' : '/logo-white.png'} alt="H One Resort" width="120" height="40" className="h-10 md:h-[50px] w-auto object-contain transition-all duration-500" />
             </a>
             {/* Right: Pricelist */}
             <div className="flex-1 flex items-center justify-end gap-3">

@@ -1,3 +1,10 @@
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/brand/hone-wordmark-white.svg">
+    <img src="docs/brand/hone-wordmark-black.svg" alt="H'ONE" height="48">
+  </picture>
+</p>
+
 # H One Resort website and booking engine
 
 A resort website with a real booking flow behind it. Guests pick a room and dates, see the price the database calculates, pay through DOKU, and get a confirmation by email. Staff manage everything from a separate [admin panel](https://github.com/Mas-Hanafi/hone-resort-admin).
@@ -97,3 +104,7 @@ Photos in `public/img` are generated gradients and `public/media/hero.mp4` is a 
 - This repository has not been run against a fresh Supabase project, so expect to fix small things in the first migration pass.
 - Only DOKU has been tested against a live sandbox. The Midtrans and Xendit adapters are covered by unit checks only.
 - Some DOKU channels send no notification (certain virtual accounts, QRIS). The reconcile job exists for that reason.
+
+## License
+
+Code: [MIT](LICENSE). The H'ONE name and logo are the project's brand identity and are not covered by the MIT license; forks should use their own name and logo.
